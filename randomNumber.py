@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# team: tesuser 1, testuser 2, testuser 3
+# team: Elsa und Daniel
+# expert of exercise block 1: Daniel
 
 import random
 import time
