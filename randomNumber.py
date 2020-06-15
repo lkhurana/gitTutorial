@@ -52,7 +52,7 @@ if __name__ == "__main__":
         write_log_file(outputfilename, color)
         rolls.append(roll)
     print(rolls)
-    plt.bar(range(6), rolls)
+    plt.barh(range(6), rolls)
     plt.show()
     sys.stdout.flush()
     
