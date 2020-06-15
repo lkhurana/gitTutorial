@@ -19,7 +19,7 @@ def write_log_file(outputfilename, data):
     f.close()
 
 
-def get_color_by_dice(spots):
+def get_color_by_dice_roll(spots):
     colors = ["blue", "green", 'red', 'yellow', 'purple', 'orange']
     return colors[spots-1]
 
@@ -42,6 +42,7 @@ def get_color_by_dice_naive(spots):
 
 if __name__ == "__main__":
     outputfilename = "randomNumber"
+    print("debug print")
     roll = get_random_number(1, 6)
-    color = get_color_by_dice(roll)
+    color = get_color_by_dice_roll(roll)
     write_log_file(outputfilename, color)
