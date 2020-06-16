@@ -7,7 +7,7 @@
 import random
 import time
 import sys
-import matplotlib.pyplot as plt
+
 
 def get_random_number(start, end):
     num = random.randint(start, end)
@@ -52,7 +52,5 @@ if __name__ == "__main__":
         write_log_file(outputfilename, color)
         rolling_in_the_deep.append(roll)
     print(rolling_in_the_deep)
-    plt.barh(range(6), rolling_in_the_deep)
-    plt.show()
     sys.stdout.flush()
     
