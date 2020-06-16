@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# team: Elsa und Daniel
+# team: Elsa und Daniel^2
 
 import random
 import time
