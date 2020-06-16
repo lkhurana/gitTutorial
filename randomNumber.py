@@ -44,15 +44,15 @@ def get_color_by_dice_naive(spots):
 if __name__ == "__main__":
     outputfilename = "randomNumber"
     print("debug print")
-    rolls_2 = []
+    rolling_in_the_deep = []
     color = []
     for i in range (6):
         roll = get_random_number(1, 6)
         color = get_color_by_dice_roll(roll)
         write_log_file(outputfilename, color)
-        rolls_2.append(roll)
-    print(rolls_2)
-    plt.barh(range(6), rolls_2)
+        rolling_in_the_deep.append(roll)
+    print(rolling_in_the_deep)
+    plt.barh(range(6), rolling_in_the_deep)
     plt.show()
     sys.stdout.flush()
     
